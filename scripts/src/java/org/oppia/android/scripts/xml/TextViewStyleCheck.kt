@@ -191,8 +191,6 @@ private class TextViewStyleCheck {
 private val attributeIds = listOf(
   "@+id/developer_options_text_view",
   "@+id/onboarding_language_text_view",
-  "@+id/walkthrough_final_no_text_view",
-  "@+id/walkthrough_final_yes_text_view",
   "@+id/walkthrough_final_title_text_view",
   "@+id/chapter_index",
   "@+id/chapter_index",

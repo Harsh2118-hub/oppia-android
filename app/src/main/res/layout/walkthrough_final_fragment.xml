@@ -58,13 +58,11 @@
 
           <TextView
             android:id="@+id/walkthrough_final_no_text_view"
+            style="@style/WalkthroughFinalNoTextViewStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif"
-            android:text="@string/no"
-            android:textColor="@color/component_color_shared_primary_text_color"
-            android:textSize="20sp" />
+            android:text="@string/no" />
 
           <TextView
             android:id="@+id/walkthrough_final_no_center_text_view"
@@ -93,13 +91,12 @@
 
           <TextView
             android:id="@+id/walkthrough_final_yes_text_view"
+            style="@style/WalkthroughFinalYesTextViewStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif"
-            android:text="@string/yes"
-            android:textColor="@color/component_color_shared_secondary_6_text_color"
-            android:textSize="20sp" />
+            android:text="@string/yes" />
+
 
           <TextView
             android:id="@+id/walkthrough_final_yes_center_text_view"
