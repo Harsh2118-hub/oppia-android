@@ -189,12 +189,6 @@ private class TextViewStyleCheck {
 
 // TODO(#5661): Add missing styles for TextView IDs.
 private val attributeIds = listOf(
-  "@+id/developer_options_text_view",
-  "@+id/onboarding_language_text_view",
-  "@+id/walkthrough_final_title_text_view",
-  "@+id/chapter_index",
-  "@+id/chapter_index",
-  "@+id/test_text_view",
   "@+id/feedback_text_view",
   "@+id/item_selection_contents_text_view",
   "@+id/learner_analytics_sync_status_text_view",

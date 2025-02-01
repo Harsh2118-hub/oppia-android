@@ -131,13 +131,8 @@
 
       <TextView
         android:id="@+id/walkthrough_final_title_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/WalkthroughFinalTitleTextViewStyle"
         android:layout_marginTop="32dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/great"
-        android:textColor="@color/component_color_shared_primary_text_color"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
