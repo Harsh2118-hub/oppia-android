@@ -884,4 +884,32 @@
       <item name="android:textColor">@color/component_color_shared_primary_text_color</item>
     </style>
 
+  <style name="FeedbackTextViewStyle" parent="TextView.Common1">
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/component_color_shared_primary_text_color</item>
+    <item name="android:textColorLink">@color/component_color_shared_link_text_color</item>
+    <item name="android:minWidth">48dp</item>
+    <item name="android:minHeight">48dp</item>
+  </style>
+
+    <style name="ItemSelectionContentsTextViewStyle" parent="TextView.Common1">
+      <item name="android:layout_width">wrap_content</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:fontFamily">sans-serif</item>
+      <item name="android:paddingStart">8dp</item>
+      <item name="android:paddingTop">4dp</item>
+      <item name="android:paddingEnd">8dp</item>
+      <item name="android:textSize">16sp</item>
+      <item name="android:textColor">@color/component_color_shared_primary_text_color</item>
+    </style>
+
+    <style name="LearnerAnalyticsSyncStatusTextViewStyle" parent="TextView.Common1">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:gravity">bottom</item>
+      <item name="android:textSize">16sp</item>
+      <item name="android:textColor">@color/component_color_shared_primary_text_color</item>
+    </style>
+
 </resources>
