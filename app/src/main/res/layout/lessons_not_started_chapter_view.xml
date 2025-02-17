@@ -29,6 +29,8 @@
       android:background="@drawable/chapter_dark_green_bg_with_bright_green_border"
       android:importantForAccessibility="no"
       android:text="@{viewModel.computePlayChapterIndexText()}"
+      android:minWidth="60dp"
+      android:minHeight="48dp"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
