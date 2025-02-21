@@ -27,12 +27,15 @@
       android:id="@+id/item_selection_checkbox"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      app:buttonTint="@{viewModel.isEnabled ? @color/component_color_shared_item_selection_interaction_enabled_color : @color/component_color_shared_item_selection_interaction_disabled_color}"
+      app:buttonTint="@{viewModel.isEnabled ?
+            @color/component_color_shared_item_selection_interaction_enabled_color :
+            @color/component_color_shared_item_selection_interaction_disabled_color}"
       android:clickable="false"
       android:enabled="@{viewModel.isEnabled}"
       android:focusable="false"
       android:labelFor="@id/item_selection_contents_text_view"
       android:checked="@{viewModel.answerSelected}" />
+
     <TextView
       android:id="@+id/item_selection_contents_text_view"
       style="@style/ItemSelectionContentsTextViewStyle"
@@ -41,6 +44,10 @@
       android:layout_marginStart="8dp"
       android:layout_marginTop="4dp"
       android:layout_marginEnd="8dp"
-      android:textColor="@{viewModel.isEnabled ? @color/component_color_shared_item_selection_interaction_enabled_color : @color/component_color_shared_item_selection_interaction_disabled_color}" />
+      android:textColor="@{viewModel.isEnabled ?
+            @color/component_color_shared_item_selection_interaction_enabled_color :
+            @color/component_color_shared_item_selection_interaction_disabled_color}" />
+
   </RelativeLayout>
+
 </layout>
